@@ -23,4 +23,22 @@ public class Character extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void getPower(View view){
+        Intent intent = new Intent(Character.this , PowerActivity.class);
+        startActivity(intent);
+    }
+    public void getSpeed(View view){
+
+        Intent intent = new Intent(Character.this , SpeedActivity.class);
+        startActivity(intent);
+    }
+    public void getIQ(View view){
+        Intent intent = new Intent(Character.this , IQActivity.class);
+        startActivity(intent);
+    }
+    public void getMobile(View view){
+        Intent intent = new Intent(Character.this , MobileActivity.class);
+        startActivity(intent);
+
+    }
 }

@@ -12,6 +12,18 @@
         android:theme="@style/Theme.WIKIDOTA"
         tools:targetApi="31">
         <activity
+            android:name=".MobileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IQActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PowerActivity"
+            android:exported="false" />
+        <activity
             android:name=".Items"
             android:exported="false" />
         <activity
