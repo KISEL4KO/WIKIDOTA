@@ -12,6 +12,9 @@
         android:theme="@style/Theme.WIKIDOTA"
         tools:targetApi="31">
         <activity
+            android:name=".EnchantressActivity"
+            android:exported="false" />
+        <activity
             android:name=".MobileActivity"
             android:exported="false" />
         <activity
