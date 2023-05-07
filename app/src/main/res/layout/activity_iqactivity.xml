@@ -20,12 +20,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/Enchantress"
+        android:id="@+id/enchantress"
         android:layout_width="75dp"
         android:layout_height="53dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="30dp"
-        android:onClick="getEnchantress"
+        android:onClick="getenc"
         app:layout_constraintEnd_toStartOf="@+id/Grimstroke"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
@@ -36,7 +36,7 @@
         android:layout_width="71dp"
         android:layout_height="53dp"
         android:layout_marginTop="30dp"
-        app:layout_constraintStart_toEndOf="@+id/Enchantress"
+        app:layout_constraintStart_toEndOf="@+id/enchantress"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:srcCompat="@drawable/grimstroke" />
 

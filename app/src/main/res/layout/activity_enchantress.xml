@@ -5,23 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#252525"
-    tools:context=".characters.EnchantressActivity">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="144dp"
-        android:layout_height="146dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/enchantress" />
+    tools:context=".EnchantressActivity">
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="241dp"
         android:layout_height="45dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text=" Enchantress"
@@ -35,6 +25,7 @@
         android:layout_width="159dp"
         android:layout_height="275dp"
         android:layout_marginStart="1dp"
+        android:layout_marginTop="17dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
@@ -44,14 +35,12 @@
         android:id="@+id/textView11"
         android:layout_width="239dp"
         android:layout_height="214dp"
-        android:layout_marginStart="3dp"
         android:layout_marginTop="6dp"
         android:layout_marginEnd="10dp"
         android:text=" Переманивает нейтральных крипов на свою сторону «Спройнк!» Беспечная и чистая душой, Аюшта странствует по лесам, слушая истории их обитателей. Nature's Attendants — живые духи, исцеляющие как малых, так и больших существ — порхают вокруг неё. При необходимости она очаровывает лесных созданий Enchants для выполнения поручений. Untouchable — прекрасный образ неприкасаемой невинности, увидев который охотники не решаются хоть немного шевельнутся в сторону Аюшты. Это нежелание редко встречается. Угрозы, нависшие над её друзьям, наполняют Enchantress решимостью пойти против своего мягкого характера и взять как оружие Impetus, чтобы привести тех, кто нарушает мирное существование, к скорому и окончательному правосудию."
         android:textColor="#F4F3F3"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <ImageView
@@ -114,7 +103,6 @@
         android:id="@+id/textView13"
         android:layout_width="243dp"
         android:layout_height="39dp"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="3dp"
         android:gravity="center"
@@ -122,6 +110,16 @@
         android:textColor="#EDE8E8"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="114dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enchantress" />
 </androidx.constraintlayout.widget.ConstraintLayout>
