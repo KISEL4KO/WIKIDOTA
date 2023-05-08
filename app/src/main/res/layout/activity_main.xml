@@ -9,18 +9,21 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView15"
         android:layout_width="265dp"
         android:layout_height="62dp"
+        android:layout_marginStart="13dp"
         android:gravity="left"
         android:text="Статистика"
         android:textColor="#FFFFFF"
-        android:textSize="48sp"
+        android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlHardcoded" />
 
     <LinearLayout
         android:id="@+id/toolbar"
@@ -50,9 +53,638 @@
             android:id="@+id/item2"
             android:layout_width="143dp"
             android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
             android:onClick="getItem"
             app:srcCompat="@drawable/item" />
 
     </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="383dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:text="Герой"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:text="Победы"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:text="Рост"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero1"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero111"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero2"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero222"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero3"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero333"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero4"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hero444"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="383dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:text="Герой"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:text="Выбор"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:text="Рост"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes1"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes11"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes111"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes2"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes22"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes222"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes3"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes33"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes333"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes4"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes44"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/heroes444"
+                android:layout_width="125dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="193dp"
+        android:layout_height="29dp"
+        android:text="Победы героев"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="193dp"
+        android:layout_height="29dp"
+        android:text="Пики героев"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
