@@ -1,10 +1,10 @@
-package com.example.wikidota.characters;
+package com.example.wikidota;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.wikidota.R;
+
 
 public class EnchantressActivity extends AppCompatActivity {
 
