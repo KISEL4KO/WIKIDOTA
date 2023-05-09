@@ -16,6 +16,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -39,31 +40,36 @@ public class MainActivity extends AppCompatActivity {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        String[] finalList = new String[24];
+        String[] listAfterParse = new String[36];
         int pos = 0;
-        for (String[] e : Builder.statisticWins(html)) {
+        ArrayList<String[]> list = Builder.statisticWins(html);
+        for (String[] e : list) {
             for (String k : e) {
                 if (k != null) {
-                    finalList[pos] = k;
+                    listAfterParse[pos] = k;
                     pos++;
-                    System.out.println(k);
                 }
-                if (pos == 12) break;
             }
-            if (pos == 12) break;
         }
-        int poss = 12;
+        int poss = 18;
         for (String[] e : Builder.statisticsPicks(html)) {
             for (String k : e) {
                 if (k != null) {
-                    finalList[poss] = k;
+                    listAfterParse[poss] = k;
                     poss++;
-                    System.out.println(k);
                 }
-                if (poss == 24) break;
             }
-            if (poss == 24) break;
         }
+        int p = 0;
+        ArrayList<String> finalList = new ArrayList<>();
+        for (String e: listAfterParse) {
+            String[] sp = new String[] {"0", "1", "2", "3", "4", "5", "9", "10", "11", "12", "13",
+                    "14", "18", "19", "20", "21", "22", "23", "27", "28", "29", "30", "31",
+                    "32"};
+            if (Builder.check(sp, String.valueOf(p))) finalList.add(e);
+            p++;
+        }
+        System.out.println(finalList);
         int convenientPos = 0;
         for (int i = 1; i < 3; i++) {
             String base;
@@ -84,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                             break;
                     }
                     TextView view = findViewById(getResources().getIdentifier(base + bebra, "id", getPackageName()));
-                    view.setText(finalList[convenientPos]);
+                    view.setText(finalList.get(convenientPos));
                     convenientPos++;
                 }
             }
