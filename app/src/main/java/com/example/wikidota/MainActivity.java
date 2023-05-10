@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
             if (Builder.check(sp, String.valueOf(p))) finalList.add(e);
             p++;
         }
-        System.out.println(finalList);
         int convenientPos = 0;
         for (int i = 1; i < 3; i++) {
             String base;

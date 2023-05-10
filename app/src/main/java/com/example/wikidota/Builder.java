@@ -57,31 +57,29 @@ public class Builder {
         String[] listWinHeroesNames = new String[6];
         ArrayList<String[]> listWinHeroes = new ArrayList<>();
         int pos = 0;
-        for (Element e: listsecs) {
+        for (Element e : listsecs) {
             String name = e.text();
-            if (!check(listWinHeroesNames, name)) {
-                String[] forEveryHero = new String[3];
-                forEveryHero[0] = name;
-                Elements rates = html.select("tr[data-link-to=" + e.attr("href") + "] > td");
-                int i = 0;
-                for (Element k: rates){
-                    k.select("i");
-                    if (i != 0 && i != 1) {
-                        if (i == 3){
-                            if (k.select("i").toString().contains("Increased")) forEveryHero[i - 1] = '+' + k.text();
-                            else forEveryHero[i - 1] = '-' + k.text();
-                        }
-                        else {
-                            forEveryHero[i - 1] = k.text();
-                        }
+            String[] forEveryHero = new String[3];
+            forEveryHero[0] = name;
+            Elements rates = html.select("tr[data-link-to=" + e.attr("href") + "] > td");
+            int i = 0;
+            for (Element k : rates) {
+                k.select("i");
+                if (i != 0 && i != 1) {
+                    if (i == 3) {
+                        if (k.select("i").toString().contains("Increased"))
+                            forEveryHero[i - 1] = '+' + k.text();
+                        else forEveryHero[i - 1] = '-' + k.text();
+                    } else if (i == 2) {
+                        forEveryHero[i - 1] = k.text();
                     }
-                    i++;
                 }
-                listWinHeroes.add(forEveryHero);
-                listWinHeroesNames[pos] = name;
-                if (pos < 5) pos++;
-                else break;
+                i++;
             }
+            listWinHeroes.add(forEveryHero);
+            listWinHeroesNames[pos] = name;
+            if (pos < 5) pos++;
+            else break;
         }
         return listWinHeroes;
         // НУЖНО ПОМНИТЬ, ЧТО ПРИ СОЗДАНИИ ТАБЛИЦЫ НА ГЛАВНОМ ЭКРАНЕ НЕОБХОДИМО ОТСЕИВАТЬ NULL-СТРОКИ !!!
@@ -94,32 +92,34 @@ public class Builder {
         for (Element e: listsecs) {
             if (poss >= listsecs.size() / 2) {
                 String name = e.text();
-                if (check(listPickHeroesNames, name)) {
-                    listPickHeroesNames[poss - listsecs.size()/2 - 1] = null;
-                }
                 String[] forEveryHeroP = new String[3];
                 forEveryHeroP[0] = name;
                 Elements rates = html.select("tr[data-link-to=" + e.attr("href") + "] > td");
                 int i = 0;
                 for (Element k : rates) {
-                    if (i != 0 && i != 1) {
-                        if (i == 3){
-                            if (k.select("i").toString().contains("Increased")) forEveryHeroP[i - 1] = '+' + k.text();
-                            else forEveryHeroP[i - 1] = '-' + k.text();
-                        }
-                        else {
-                            forEveryHeroP[i - 1] = k.text();
+                    if (i != rates.size() - 4 && i != rates.size() - 3) {
+                        if (i == rates.size() - 1) {
+                            if (k.select("i").toString().contains("Increased"))
+                                forEveryHeroP[i - rates.size() + 3] = '+' + k.text();
+                            else forEveryHeroP[i - rates.size() + 3] = '-' + k.text();
+                        } else if (i == rates.size() - 2) {
+                            forEveryHeroP[i - rates.size() + 3] = k.text();
                         }
                     }
                     i++;
                 }
                 listPickHeroes.add(forEveryHeroP);
                 listPickHeroesNames[poss - listsecs.size()/2] = name;
-                if (poss == listsecs.size()-1) {
+                if (poss == listsecs.size() - 1) {
                     break;
                 }
             }
             poss++;
+        }
+        for (String[] e: listPickHeroes) {
+            for(String j: e) {
+                System.out.println(j);
+            }
         }
         return listPickHeroes;
     }
