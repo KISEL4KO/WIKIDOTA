@@ -14,6 +14,78 @@
         android:theme="@style/Theme.WIKIDOTA"
         tools:targetApi="31">
         <activity
+            android:name=".character.power.LifestealerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.WraithKingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.UndyingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.UnderLordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.TuskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.TreantProtectorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.TinyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.TideHunterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.SvenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.SpiritBreakerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.SlardarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.PudgeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.PrimalBeastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.OmniknightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.OgreMagiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.NightStalkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.MarsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.LegionCommanderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.KunkkaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.HuskarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.ElderTitanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.EarthsheakerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.EarthSpiritActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.power.DragonKnightActivity"
+            android:exported="false" />
+        <activity
             android:name=".character.power.DoomActivity"
             android:exported="false" />
         <activity

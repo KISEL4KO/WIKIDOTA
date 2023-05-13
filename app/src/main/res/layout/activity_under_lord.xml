@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#252525"
-    tools:context=".character.power.BristlebackActivity">
+    tools:context=".character.power.UnderLordActivity">
 
     <ImageView
-        android:id="@+id/imageView104"
+        android:id="@+id/imageView130"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="17dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bristleback" />
+        app:srcCompat="@drawable/underlord" />
 </androidx.constraintlayout.widget.ConstraintLayout>
