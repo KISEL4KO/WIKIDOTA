@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.wikidota.character.AncientApparatActivity;
+import com.example.wikidota.character.CrystalMaidenActivity;
 import com.example.wikidota.character.DeathProphetActivity;
 import com.example.wikidota.character.DisruptorActivity;
 import com.example.wikidota.character.EnchantressActivity;
@@ -25,6 +26,7 @@ import com.example.wikidota.character.NecrophosActivity;
 import com.example.wikidota.character.OracleActivity;
 import com.example.wikidota.character.OutworldDestroyerActivity;
 import com.example.wikidota.character.PuckActivity;
+import com.example.wikidota.character.PugnaActivity;
 import com.example.wikidota.character.QueenofPainActivity;
 import com.example.wikidota.character.RubickActivity;
 import com.example.wikidota.character.ShadowDemonActivity;
@@ -203,5 +205,19 @@ public class IQActivity extends AppCompatActivity {
      Intent intent = new Intent(IQActivity.this, SilencerActivity.class);
      startActivity(intent);
      Log.i("iqactivity","good");
+
  }
+    public void getpugna(View view){
+        Intent intent = new Intent(IQActivity.this, PugnaActivity.class);
+        startActivity(intent);
+        Log.i("iqactivity","good");
+
+    }
+    public void getcrystal(View view){
+        Intent intent = new Intent(IQActivity.this, CrystalMaidenActivity.class);
+        startActivity(intent);
+        Log.i("iqactivity","good");
+
+    }
+
 }
