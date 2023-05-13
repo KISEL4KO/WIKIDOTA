@@ -143,12 +143,12 @@
 
             <TextView
                 android:id="@+id/hero1"
-                android:layout_width="match_parent"
+                android:layout_width="125dp"
                 android:layout_height="match_parent"
                 android:padding="5dp"
                 android:gravity="center"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp"/>
+                android:textSize="19dp"/>
 
             <TextView
                 android:layout_width="2dp"
@@ -202,12 +202,12 @@
 
             <TextView
                 android:id="@+id/hero2"
-                android:layout_width="match_parent"
+                android:layout_width="125dp"
                 android:layout_height="match_parent"
                 android:padding="5dp"
                 android:gravity="center"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp"/>
+                android:textSize="19dp"/>
 
             <TextView
                 android:layout_width="2dp"
@@ -266,7 +266,7 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp" />
+                android:textSize="19dp" />
 
             <TextView
                 android:layout_width="2dp"
@@ -325,7 +325,7 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp" />
+                android:textSize="19dp" />
 
             <TextView
                 android:layout_width="2dp"
@@ -458,7 +458,7 @@
                 android:padding="5dp"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp" />
+                android:textSize="19dp" />
 
             <TextView
                 android:layout_width="2dp"
@@ -516,7 +516,7 @@
                 android:gravity="center"
                 android:padding="5dp"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp"
+                android:textSize="19dp"
                 android:layout_height="match_parent" />
 
             <TextView
@@ -576,7 +576,7 @@
                 android:padding="5dp"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp" />
+                android:textSize="19dp" />
 
             <TextView
                 android:layout_width="2dp"
@@ -635,7 +635,7 @@
                 android:padding="5dp"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
-                android:textSize="20dp" />
+                android:textSize="19dp" />
 
             <TextView
                 android:layout_width="2dp"
