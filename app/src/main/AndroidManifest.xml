@@ -13,9 +13,98 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WIKIDOTA"
         tools:targetApi="31">
-
         <activity
-            android:name=".EnchantressActivity"
+            android:name=".character.ZeusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.WithDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.WarlockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.TinkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.StromSpiritActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.SkywrathMagActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.SilencerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.ShadowShamanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.ShadowDemonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.RubickActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.QueenofPainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.PugnaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.PuckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.OutworldDestroyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.OracleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.NecrophosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.NaturesProphetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.MuertaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.LionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.LinaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.LIchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.LesharcMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.KeeperoftheLightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.JakiroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.InvokerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.GrimstrokeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.DisruptorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.DeathProphetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.CrystalMaidenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.AncientApparatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.EnchantressActivity"
             android:exported="false" />
         <activity
             android:name=".MobileActivity"
