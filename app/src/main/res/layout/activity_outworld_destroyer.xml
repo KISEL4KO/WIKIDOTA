@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#252525"
 
-    tools:context=".character.OutworldDestroyerActivity">
+    tools:context=".character.iq.OutworldDestroyerActivity">
 
     <ImageView
         android:id="@+id/imageView54"

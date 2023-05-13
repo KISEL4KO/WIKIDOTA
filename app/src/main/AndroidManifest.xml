@@ -14,97 +14,118 @@
         android:theme="@style/Theme.WIKIDOTA"
         tools:targetApi="31">
         <activity
-            android:name=".character.ZeusActivity"
+            android:name=".character.power.DoomActivity"
             android:exported="false" />
         <activity
-            android:name=".character.WithDoctorActivity"
+            android:name=".character.power.DawnbreakerActivity"
             android:exported="false" />
         <activity
-            android:name=".character.WarlockActivity"
+            android:name=".character.power.ChaosKnightActivity"
             android:exported="false" />
         <activity
-            android:name=".character.TinkerActivity"
+            android:name=".character.power.CentaurWarrunnerActivity"
             android:exported="false" />
         <activity
-            android:name=".character.StromSpiritActivity"
+            android:name=".character.power.BristlebackActivity"
             android:exported="false" />
         <activity
-            android:name=".character.SkywrathMagActivity"
+            android:name=".character.power.AxeActivity"
             android:exported="false" />
         <activity
-            android:name=".character.SilencerActivity"
+            android:name=".character.power.AlchemistActivity"
             android:exported="false" />
         <activity
-            android:name=".character.ShadowShamanActivity"
+            android:name=".character.iq.ZeusActivity"
             android:exported="false" />
         <activity
-            android:name=".character.ShadowDemonActivity"
+            android:name=".character.iq.WithDoctorActivity"
             android:exported="false" />
         <activity
-            android:name=".character.RubickActivity"
+            android:name=".character.iq.WarlockActivity"
             android:exported="false" />
         <activity
-            android:name=".character.QueenofPainActivity"
+            android:name=".character.iq.TinkerActivity"
             android:exported="false" />
         <activity
-            android:name=".character.PugnaActivity"
+            android:name=".character.iq.StromSpiritActivity"
             android:exported="false" />
         <activity
-            android:name=".character.PuckActivity"
+            android:name=".character.iq.SkywrathMagActivity"
             android:exported="false" />
         <activity
-            android:name=".character.OutworldDestroyerActivity"
+            android:name=".character.iq.SilencerActivity"
             android:exported="false" />
         <activity
-            android:name=".character.OracleActivity"
+            android:name=".character.iq.ShadowShamanActivity"
             android:exported="false" />
         <activity
-            android:name=".character.NecrophosActivity"
+            android:name=".character.iq.ShadowDemonActivity"
             android:exported="false" />
         <activity
-            android:name=".character.NaturesProphetActivity"
+            android:name=".character.iq.RubickActivity"
             android:exported="false" />
         <activity
-            android:name=".character.MuertaActivity"
+            android:name=".character.iq.QueenofPainActivity"
             android:exported="false" />
         <activity
-            android:name=".character.LionActivity"
+            android:name=".character.iq.PugnaActivity"
             android:exported="false" />
         <activity
-            android:name=".character.LinaMainActivity"
+            android:name=".character.iq.PuckActivity"
             android:exported="false" />
         <activity
-            android:name=".character.LIchActivity"
+            android:name=".character.iq.OutworldDestroyerActivity"
             android:exported="false" />
         <activity
-            android:name=".character.LesharcMainActivity"
+            android:name=".character.iq.OracleActivity"
             android:exported="false" />
         <activity
-            android:name=".character.KeeperoftheLightActivity"
+            android:name=".character.iq.NecrophosActivity"
             android:exported="false" />
         <activity
-            android:name=".character.JakiroActivity"
+            android:name=".character.iq.NaturesProphetActivity"
             android:exported="false" />
         <activity
-            android:name=".character.InvokerActivity"
+            android:name=".character.iq.MuertaActivity"
             android:exported="false" />
         <activity
-            android:name=".character.GrimstrokeActivity"
+            android:name=".character.iq.LionActivity"
             android:exported="false" />
         <activity
-            android:name=".character.DisruptorActivity"
+            android:name=".character.iq.LinaMainActivity"
             android:exported="false" />
         <activity
-            android:name=".character.DeathProphetActivity"
+            android:name=".character.iq.LIchActivity"
             android:exported="false" />
         <activity
-            android:name=".character.CrystalMaidenActivity"
+            android:name=".character.iq.LesharcMainActivity"
             android:exported="false" />
         <activity
-            android:name=".character.AncientApparatActivity"
+            android:name=".character.iq.KeeperoftheLightActivity"
             android:exported="false" />
         <activity
-            android:name=".character.EnchantressActivity"
+            android:name=".character.iq.JakiroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.iq.InvokerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.iq.GrimstrokeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.iq.DisruptorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.iq.DeathProphetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.iq.CrystalMaidenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.iq.AncientApparatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.iq.EnchantressActivity"
             android:exported="false" />
         <activity
             android:name=".MobileActivity"

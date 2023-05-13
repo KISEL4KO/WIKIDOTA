@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#252525"
 
-    tools:context=".character.MuertaActivity">
+    tools:context=".character.iq.MuertaActivity">
 
     <ImageView
         android:id="@+id/imageView50"

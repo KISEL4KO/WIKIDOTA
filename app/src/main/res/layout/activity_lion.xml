@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#252525"
 
-    tools:context=".character.LionActivity">
+    tools:context=".character.iq.LionActivity">
 
     <ImageView
         android:id="@+id/imageView42"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#252525"
 
-    tools:context=".character.SilencerActivity">
+    tools:context=".character.iq.SilencerActivity">
 
     <ImageView
         android:id="@+id/imageView61"

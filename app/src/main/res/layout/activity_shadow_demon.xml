@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#252525"
 
-    tools:context=".character.ShadowDemonActivity">
+    tools:context=".character.iq.ShadowDemonActivity">
 
     <ImageView
         android:id="@+id/imageView59"

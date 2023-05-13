@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#252525"
 
-    tools:context=".character.NaturesProphetActivity">
+    tools:context=".character.iq.NaturesProphetActivity">
 
     <ImageView
         android:id="@+id/imageView51"
