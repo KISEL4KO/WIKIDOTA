@@ -14,6 +14,97 @@
         android:theme="@style/Theme.WIKIDOTA"
         tools:targetApi="31">
         <activity
+            android:name=".character.speed.WeaverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.ViperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.UrsaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.TrollWarlordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.TerrorbladeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.TempllarAssasinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.SpectreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.SniperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.SlarkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.ShadowFiendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.RikiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.RazorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".character.speed.PhatomAssasinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.NagaSirenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.MorphlingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.MonkeyKingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.MeepoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.MedusaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.LunaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.JuggernautActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.HoodwinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.GyrocopterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.FacelessVoidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.EmberSpiritActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.DrowRangerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.ClinkzActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.BountyHunterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.BloodseekerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.ArcWardenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.speed.AntiMageActivity"
+            android:exported="false" />
+        <activity
             android:name=".character.power.LifestealerActivity"
             android:exported="false" />
         <activity

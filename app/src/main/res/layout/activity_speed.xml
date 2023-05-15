@@ -18,4 +18,339 @@
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView133"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:onClick="getantimage"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/antimage" />
+
+    <ImageView
+        android:id="@+id/imageView134"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:onClick="getarcwarden"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView133"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/arcwarden" />
+
+    <ImageView
+        android:id="@+id/imageView135"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:onClick="getbloodseeker"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView134"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/bloodseeker" />
+
+    <ImageView
+        android:id="@+id/imageView136"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="102dp"
+        android:onClick="getbountyhunter"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView135"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bountyhunter" />
+
+    <ImageView
+        android:id="@+id/imageView137"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="getclinkz"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView136"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clinkz" />
+
+    <ImageView
+        android:id="@+id/imageView138"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:onClick="getdrowranger"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView133"
+        app:srcCompat="@drawable/drowranger" />
+
+    <ImageView
+        android:id="@+id/imageView139"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getemberspirit"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView138"
+        app:layout_constraintTop_toBottomOf="@+id/imageView134"
+        app:srcCompat="@drawable/emberspirit" />
+
+    <ImageView
+        android:id="@+id/imageView140"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getfaclessvoid"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView139"
+        app:layout_constraintTop_toBottomOf="@+id/imageView135"
+        app:srcCompat="@drawable/facelessvoid" />
+
+    <ImageView
+        android:id="@+id/imageView141"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getgyrocopter"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView140"
+        app:layout_constraintTop_toBottomOf="@+id/imageView136"
+        app:srcCompat="@drawable/gyrocopter" />
+
+    <ImageView
+        android:id="@+id/imageView142"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="gethoodwink"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView141"
+        app:layout_constraintTop_toBottomOf="@+id/imageView137"
+        app:srcCompat="@drawable/hoodwink" />
+
+    <ImageView
+        android:id="@+id/imageView143"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:onClick="gerjuggernaut"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView138"
+        app:srcCompat="@drawable/juggernaut" />
+
+    <ImageView
+        android:id="@+id/imageView144"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getluna"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView143"
+        app:layout_constraintTop_toBottomOf="@+id/imageView139"
+        app:srcCompat="@drawable/luna" />
+
+    <ImageView
+        android:id="@+id/imageView145"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getmedusa"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView144"
+        app:layout_constraintTop_toBottomOf="@+id/imageView140"
+        app:srcCompat="@drawable/medusa" />
+
+    <ImageView
+        android:id="@+id/imageView146"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getmeepo"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView145"
+        app:layout_constraintTop_toBottomOf="@+id/imageView141"
+        app:srcCompat="@drawable/meepo" />
+
+    <ImageView
+        android:id="@+id/imageView147"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="getmonkeyking"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView146"
+        app:layout_constraintTop_toBottomOf="@+id/imageView142"
+        app:srcCompat="@drawable/monkeyking" />
+
+    <ImageView
+        android:id="@+id/imageView148"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:onClick="getmorphling"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView143"
+        app:srcCompat="@drawable/morphling" />
+
+    <ImageView
+        android:id="@+id/imageView149"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getnagasiren"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView148"
+        app:layout_constraintTop_toBottomOf="@+id/imageView144"
+        app:srcCompat="@drawable/nagasiren" />
+
+    <ImageView
+        android:id="@+id/imageView150"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getphatomassasin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView149"
+        app:layout_constraintTop_toBottomOf="@+id/imageView145"
+        app:srcCompat="@drawable/phatomassasin" />
+
+    <ImageView
+        android:id="@+id/imageView151"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getphatomlancer"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView150"
+        app:layout_constraintTop_toBottomOf="@+id/imageView146"
+        app:srcCompat="@drawable/phatomlancer" />
+
+    <ImageView
+        android:id="@+id/imageView152"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="getrazor"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView151"
+        app:layout_constraintTop_toBottomOf="@+id/imageView147"
+        app:srcCompat="@drawable/razor" />
+
+    <ImageView
+        android:id="@+id/imageView153"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:onClick="getriki"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView148"
+        app:srcCompat="@drawable/riki" />
+
+    <ImageView
+        android:id="@+id/imageView154"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getshadowfiend"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView153"
+        app:layout_constraintTop_toBottomOf="@+id/imageView149"
+        app:srcCompat="@drawable/shadowfiend" />
+
+    <ImageView
+        android:id="@+id/imageView155"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getslark"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView154"
+        app:layout_constraintTop_toBottomOf="@+id/imageView150"
+        app:srcCompat="@drawable/slark" />
+
+    <ImageView
+        android:id="@+id/imageView156"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getsniper"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView155"
+        app:layout_constraintTop_toBottomOf="@+id/imageView151"
+        app:srcCompat="@drawable/sniper" />
+
+    <ImageView
+        android:id="@+id/imageView157"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="getspectre"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView152"
+        app:srcCompat="@drawable/spectre" />
+
+    <ImageView
+        android:id="@+id/imageView158"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:onClick="gettemplarassasin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView153"
+        app:srcCompat="@drawable/templarassasin" />
+
+    <ImageView
+        android:id="@+id/imageView159"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getterrorblade"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView158"
+        app:layout_constraintTop_toBottomOf="@+id/imageView154"
+        app:srcCompat="@drawable/terrorblade" />
+
+    <ImageView
+        android:id="@+id/imageView160"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="gettrollwarlord"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView159"
+        app:layout_constraintTop_toBottomOf="@+id/imageView155"
+        app:srcCompat="@drawable/trollwarlord" />
+
+    <ImageView
+        android:id="@+id/imageView161"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:onClick="getursa"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/imageView160"
+        app:layout_constraintTop_toBottomOf="@+id/imageView156"
+        app:srcCompat="@drawable/ursa" />
+
+    <ImageView
+        android:id="@+id/imageView162"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="getviper"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView161"
+        app:layout_constraintTop_toBottomOf="@+id/imageView157"
+        app:srcCompat="@drawable/viper" />
+
+    <ImageView
+        android:id="@+id/imageView163"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="320dp"
+        android:onClick="getweaver"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView158"
+        app:srcCompat="@drawable/weaver" />
 </androidx.constraintlayout.widget.ConstraintLayout>
