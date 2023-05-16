@@ -14,6 +14,99 @@
         android:theme="@style/Theme.WIKIDOTA"
         tools:targetApi="31">
         <activity
+            android:name=".character.mobile.VengefullActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.WynterWyvernActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.WindrangerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.VoidSpiritActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.VisageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.VenomancerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.TimbersawActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.TechiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.SanpfireActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.SandKingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.PhoeinixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.PangolierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.NyxAssasinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.MiranaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.MarciActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.MagusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.LycanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.LonedruidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.ioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.EnigmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.DazzleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.DarkwillowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.DarkseerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.ClockwerkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.ChenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.BroodMotherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.BrewmasterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.BeastmasterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.BatriderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.BaneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".character.mobile.AbaddonActivity"
+            android:exported="false" />
+        <activity
             android:name=".character.speed.WeaverActivity"
             android:exported="false" />
         <activity
@@ -49,7 +142,6 @@
         <activity
             android:name=".character.speed.RazorActivity"
             android:exported="false" />
-
         <activity
             android:name=".character.speed.PhatomAssasinActivity"
             android:exported="false" />
