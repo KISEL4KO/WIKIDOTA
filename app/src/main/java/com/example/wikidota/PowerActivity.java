@@ -7,38 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.example.wikidota.character.iq.EnchantressActivity;
-import com.example.wikidota.character.power.AlchemistActivity;
-import com.example.wikidota.character.power.AxeActivity;
-import com.example.wikidota.character.power.BristlebackActivity;
-import com.example.wikidota.character.power.CentaurWarrunnerActivity;
-import com.example.wikidota.character.power.ChaosKnightActivity;
-import com.example.wikidota.character.power.DawnbreakerActivity;
-import com.example.wikidota.character.power.DoomActivity;
-import com.example.wikidota.character.power.DragonKnightActivity;
-import com.example.wikidota.character.power.EarthSpiritActivity;
-import com.example.wikidota.character.power.EarthsheakerActivity;
-import com.example.wikidota.character.power.ElderTitanActivity;
-import com.example.wikidota.character.power.HuskarActivity;
-import com.example.wikidota.character.power.KunkkaActivity;
-import com.example.wikidota.character.power.LegionCommanderActivity;
-import com.example.wikidota.character.power.LifestealerActivity;
-import com.example.wikidota.character.power.MarsActivity;
-import com.example.wikidota.character.power.NightStalkerActivity;
-import com.example.wikidota.character.power.OgreMagiActivity;
-import com.example.wikidota.character.power.OmniknightActivity;
-import com.example.wikidota.character.power.PrimalBeastActivity;
-import com.example.wikidota.character.power.PudgeActivity;
-import com.example.wikidota.character.power.SlardarActivity;
-import com.example.wikidota.character.power.SpiritBreakerActivity;
-import com.example.wikidota.character.power.SvenActivity;
-import com.example.wikidota.character.power.TideHunterActivity;
-import com.example.wikidota.character.power.TinyActivity;
-import com.example.wikidota.character.power.TreantProtectorActivity;
-import com.example.wikidota.character.power.TuskActivity;
-import com.example.wikidota.character.power.UnderLordActivity;
-import com.example.wikidota.character.power.UndyingActivity;
-import com.example.wikidota.character.power.WraithKingActivity;
+import com.example.wikidota.HeroActivity;
 
 public class PowerActivity extends AppCompatActivity {
 
@@ -49,99 +18,135 @@ public class PowerActivity extends AppCompatActivity {
     }
 
     public void getalchemist(View view) {
-        Intent intent = new Intent(PowerActivity.this, AlchemistActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "alchemist");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
-
     }
+
     public void getaxe(View view) {
-        Intent intent = new Intent(PowerActivity.this, AxeActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "axe");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getbristleback(View view) {
-        Intent intent = new Intent(PowerActivity.this, BristlebackActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "bristleback");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getcentaurwarrunner(View view) {
-        Intent intent = new Intent(PowerActivity.this, CentaurWarrunnerActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "centaurwarrunner");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getchaosknight(View view) {
-        Intent intent = new Intent(PowerActivity.this, ChaosKnightActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "chaosknight");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getdawnbreaker(View view) {
-        Intent intent = new Intent(PowerActivity.this, DawnbreakerActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "dawnbreaker");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getdoom(View view) {
-        Intent intent = new Intent(PowerActivity.this, DoomActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "doom");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getdragonknight(View view) {
-        Intent intent = new Intent(PowerActivity.this, DragonKnightActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "dragonknight");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
 
 
     } public void getearthshaker(View view) {
-        Intent intent = new Intent(PowerActivity.this, EarthsheakerActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "earthshaker");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getearthspirit(View view) {
-        Intent intent = new Intent(PowerActivity.this, EarthSpiritActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "earthspirit");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void gethuskar(View view) {
-        Intent intent = new Intent(PowerActivity.this, HuskarActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "huskar");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getkunkka(View view) {
-        Intent intent = new Intent(PowerActivity.this, KunkkaActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "kunkka");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     }
     public void getlegioncommander(View view) {
-        Intent intent = new Intent(PowerActivity.this, LegionCommanderActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "legioncommander");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     }
     public void getlifestealer(View view) {
-        Intent intent = new Intent(PowerActivity.this, LifestealerActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "lifestealer");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getmars(View view) {
-        Intent intent = new Intent(PowerActivity.this, MarsActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "mars");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     }
 
      public void getnightstalker(View view) {
-        Intent intent = new Intent(PowerActivity.this, NightStalkerActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+         intent.putExtra("name", "nightstalker");
+         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getogremagi(View view) {
-        Intent intent = new Intent(PowerActivity.this, OgreMagiActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "ogremagi");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getomniknight(View view) {
-        Intent intent = new Intent(PowerActivity.this, OmniknightActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "omniknight");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
@@ -149,75 +154,98 @@ public class PowerActivity extends AppCompatActivity {
     }
 
      public void getprimalbeast(View view) {
-        Intent intent = new Intent(PowerActivity.this, PrimalBeastActivity.class);
+         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+         intent.putExtra("name", "primalbeast");
+         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getpudge(View view) {
-        Intent intent = new Intent(PowerActivity.this, PudgeActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "pudge");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     }
     public void getslardar(View view) {
-        Intent intent = new Intent(PowerActivity.this, SlardarActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "slardar");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getspiritbreaker(View view) {
-        Intent intent = new Intent(PowerActivity.this, SpiritBreakerActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "spiritbreaker");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getsven(View view) {
-        Intent intent = new Intent(PowerActivity.this, SvenActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "sven");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void gettidehunter(View view) {
-        Intent intent = new Intent(PowerActivity.this, TideHunterActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "tidehunter");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void gettiny(View view) {
-        Intent intent = new Intent(PowerActivity.this, TinyActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "tiny");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void gettreantprotector(View view) {
-        Intent intent = new Intent(PowerActivity.this, TreantProtectorActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "treantprotector");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void gettusk(View view) {
-        Intent intent = new Intent(PowerActivity.this, TuskActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "tusk");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
 
     }
     public void getunderlord(View view) {
-        Intent intent = new Intent(PowerActivity.this, UnderLordActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "underlord");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getundying(View view) {
-        Intent intent = new Intent(PowerActivity.this, UndyingActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "undying");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getwraithking(View view) {
-        Intent intent = new Intent(PowerActivity.this, WraithKingActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "wraithking");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
-
-
     }
     public void geteldertitan(View view) {
-        Intent intent = new Intent(PowerActivity.this, ElderTitanActivity.class);
+        Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
+        intent.putExtra("name", "eldertitan");
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
-
     }
 }
 

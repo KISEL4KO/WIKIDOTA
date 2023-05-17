@@ -7,37 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.example.wikidota.character.iq.AncientApparatActivity;
-import com.example.wikidota.character.iq.CrystalMaidenActivity;
-import com.example.wikidota.character.iq.DeathProphetActivity;
-import com.example.wikidota.character.iq.DisruptorActivity;
-import com.example.wikidota.character.iq.EnchantressActivity;
-import com.example.wikidota.character.iq.GrimstrokeActivity;
-import com.example.wikidota.character.iq.InvokerActivity;
-import com.example.wikidota.character.iq.JakiroActivity;
-import com.example.wikidota.character.iq.KeeperoftheLightActivity;
-import com.example.wikidota.character.iq.LIchActivity;
-import com.example.wikidota.character.iq.LesharcMainActivity;
-import com.example.wikidota.character.iq.LinaMainActivity;
-import com.example.wikidota.character.iq.LionActivity;
-import com.example.wikidota.character.iq.MuertaActivity;
-import com.example.wikidota.character.iq.NaturesProphetActivity;
-import com.example.wikidota.character.iq.NecrophosActivity;
-import com.example.wikidota.character.iq.OracleActivity;
-import com.example.wikidota.character.iq.OutworldDestroyerActivity;
-import com.example.wikidota.character.iq.PuckActivity;
-import com.example.wikidota.character.iq.PugnaActivity;
-import com.example.wikidota.character.iq.QueenofPainActivity;
-import com.example.wikidota.character.iq.RubickActivity;
-import com.example.wikidota.character.iq.ShadowDemonActivity;
-import com.example.wikidota.character.iq.ShadowShamanActivity;
-import com.example.wikidota.character.iq.SilencerActivity;
-import com.example.wikidota.character.iq.SkywrathMagActivity;
-import com.example.wikidota.character.iq.StromSpiritActivity;
-import com.example.wikidota.character.iq.TinkerActivity;
-import com.example.wikidota.character.iq.WarlockActivity;
-import com.example.wikidota.character.iq.WithDoctorActivity;
-import com.example.wikidota.character.iq.ZeusActivity;
+import com.example.wikidota.HeroActivity;
 
 /**
  * @KISEL4KO
@@ -54,7 +24,8 @@ public class IQActivity extends AppCompatActivity {
      * Навешивание метода перехода на активность слушателем персонажем
      * */
     public void getenc(View view) {
-        Intent intent = new Intent(IQActivity.this, EnchantressActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "enchantress");
         startActivity(intent);
         Log.i("iqactivity","good");
 
@@ -62,159 +33,191 @@ public class IQActivity extends AppCompatActivity {
 
 
     public void getgrimstroke(View view) {
-        Intent intent = new Intent(IQActivity.this, GrimstrokeActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "grimstroke");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
 
     public void getapparat(View view) {
-        Intent intent = new Intent(IQActivity.this, AncientApparatActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "ancienapparation");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
 
     public void getdeathpropet(View view) {
-        Intent intent = new Intent(IQActivity.this, DeathProphetActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "deathprophet");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getinvoker(View view) {
-        Intent intent = new Intent(IQActivity.this, InvokerActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "invoker");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getjakiro(View view) {
-        Intent intent = new Intent(IQActivity.this, JakiroActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "jakiro");
         startActivity(intent);
         Log.i("iqactivity","good");
 
     }
     public void getkeeper(View view) {
-        Intent intent = new Intent(IQActivity.this, KeeperoftheLightActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "keeperofthelight");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getwarlock(View view) {
-        Intent intent = new Intent(IQActivity.this, WarlockActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "warlock");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getlich(View view) {
-        Intent intent = new Intent(IQActivity.this, LIchActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "lich");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getlina(View view) {
-        Intent intent = new Intent(IQActivity.this, LinaMainActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "lina");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getleon(View view) {
-        Intent intent = new Intent(IQActivity.this, LionActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "lion");
         startActivity(intent);
         Log.i("iqactivity","good");
 
     }
     public void getmuerta(View view) {
-        Intent intent = new Intent(IQActivity.this, MuertaActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "muerta");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getnaturestro(View view) {
-        Intent intent = new Intent(IQActivity.this, NaturesProphetActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "naturesprophet");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getnecrophos(View view) {
-        Intent intent = new Intent(IQActivity.this, NecrophosActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "necrophos");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getoracle(View view) {
-        Intent intent = new Intent(IQActivity.this, OracleActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "oracle");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getoutworld(View view) {
-        Intent intent = new Intent(IQActivity.this, OutworldDestroyerActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "outworlddestroyer");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getpuck(View view) {
-        Intent intent = new Intent(IQActivity.this, PuckActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "puck");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getqueenofpain(View view) {
-        Intent intent = new Intent(IQActivity.this, QueenofPainActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "queenofpain");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getrubick(View view) {
-        Intent intent = new Intent(IQActivity.this, RubickActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "rubick");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getshadowdemon(View view) {
-        Intent intent = new Intent(IQActivity.this, ShadowDemonActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "shadowdemon");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getdisruptor(View view) {
-        Intent intent = new Intent(IQActivity.this, DisruptorActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "disruptor");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void gettinker(View view) {
-        Intent intent = new Intent(IQActivity.this, TinkerActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "tinker");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getpetuhsara(View view) {
-        Intent intent = new Intent(IQActivity.this, SkywrathMagActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "skywrathmage");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getstromspirit(View view) {
-        Intent intent = new Intent(IQActivity.this, StromSpiritActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "stormspirit");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getwithdoctor(View view) {
-        Intent intent = new Intent(IQActivity.this, WithDoctorActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "witchdoctor");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getzeus(View view) {
-        Intent intent = new Intent(IQActivity.this, ZeusActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "zeus");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getleshark(View view) {
-        Intent intent = new Intent(IQActivity.this, LesharcMainActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "leshrak");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
 
     public void getshadowshaman(View view) {
-        Intent intent = new Intent(IQActivity.this, ShadowShamanActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "shadowshaman");
         startActivity(intent);
-        Log.i("iqactivity","good");
+        Log.i("iqactivity", "good");
     }
- public void getsilencer(View view){
-     Intent intent = new Intent(IQActivity.this, SilencerActivity.class);
-     startActivity(intent);
-     Log.i("iqactivity","good");
 
- }
-    public void getpugna(View view){
-        Intent intent = new Intent(IQActivity.this, PugnaActivity.class);
+    public void getsilencer(View view) {
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "silencer");
         startActivity(intent);
-        Log.i("iqactivity","good");
+        Log.i("iqactivity", "good");
+
+    }
+
+    public void getpugna(View view) {
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "pugna");
+        startActivity(intent);
+        Log.i("iqactivity", "good");
 
     }
     public void getcrystal(View view){
-        Intent intent = new Intent(IQActivity.this, CrystalMaidenActivity.class);
+        Intent intent = new Intent(IQActivity.this, HeroActivity.class);
+        intent.putExtra("name", "crystalmaiden");
         startActivity(intent);
         Log.i("iqactivity","good");
 
