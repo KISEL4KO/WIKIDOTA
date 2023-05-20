@@ -9,13 +9,8 @@ import org.jsoup.select.Elements;
 
 public class Builder {
 
-    public static void items(String hero, Document html) {
+    public static void items(Document html) {
         try {
-            String[] heroName = hero.toLowerCase().split(" ");
-            StringJoiner joinedName = new StringJoiner("-");
-            for (String e: heroName){
-                joinedName.add(e);
-            }
             String title = html.title();
             System.out.println(title + '\n');
             System.out.println("Top-12 most used items this week:" + "\n");
@@ -41,6 +36,40 @@ public class Builder {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+    }
+
+    public static String[] description(Document html) {
+        String[] list = new String[2];
+        try {
+            String name = html.title().split(" — ")[0];
+            Elements listItems = html.select("div.mw-parser-output > table > tbody > tr > td");
+            int pos = 0;
+            for (Element e: listItems) {
+                if (e.text().contains("Керри") || e.text().contains("Поддержка")) {
+                    break;
+                }
+                if (e.text().length() > 3) pos++;
+            }
+            list[0] = name;
+            list[1] = listItems.get(pos - 1).text();
+            System.out.println(pos);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return list;
+    }
+
+    public static String[] info(Document html) {
+        String[] list = new String[3];
+        try {
+            Elements listItems = html.select("table.wikitable > tbody > tr > td");
+            list[0] = listItems.get(0).text();
+            list[1] = listItems.get(3).text();
+            list[2] = listItems.get(4).text();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return list;
     }
 
     public static boolean check(String[] arr, String name) {
@@ -82,8 +111,8 @@ public class Builder {
             else break;
         }
         return listWinHeroes;
-        // НУЖНО ПОМНИТЬ, ЧТО ПРИ СОЗДАНИИ ТАБЛИЦЫ НА ГЛАВНОМ ЭКРАНЕ НЕОБХОДИМО ОТСЕИВАТЬ NULL-СТРОКИ !!!
     }
+
     public static ArrayList<String[]> statisticsPicks(Document html) {
         Elements listsecs = html.select("section.home-hero-pulse").select("a.link-type-hero");
         String[] listPickHeroesNames = new String[6];

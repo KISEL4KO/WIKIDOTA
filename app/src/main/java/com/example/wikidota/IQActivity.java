@@ -41,14 +41,14 @@ public class IQActivity extends AppCompatActivity {
 
     public void getapparat(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "ancienapparation");
+        intent.putExtra("name", "ancient_apparation");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
 
     public void getdeathpropet(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "deathprophet");
+        intent.putExtra("name", "death_prophet");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
@@ -67,7 +67,7 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getkeeper(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "keeperofthelight");
+        intent.putExtra("name", "keeper_of_the_light");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
@@ -104,7 +104,7 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getnaturestro(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "naturesprophet");
+        intent.putExtra("name", "natures_prophet");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
@@ -122,7 +122,7 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getoutworld(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "outworlddestroyer");
+        intent.putExtra("name", "outworld_destroyer");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
@@ -134,7 +134,7 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getqueenofpain(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "queenofpain");
+        intent.putExtra("name", "queen_of_pain");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
@@ -146,7 +146,7 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getshadowdemon(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "shadowdemon");
+        intent.putExtra("name", "shadow_demon");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
@@ -164,19 +164,19 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getpetuhsara(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "skywrathmage");
+        intent.putExtra("name", "skywrath_mage");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getstromspirit(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "stormspirit");
+        intent.putExtra("name", "storm_spirit");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
     public void getwithdoctor(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "witchdoctor");
+        intent.putExtra("name", "witch_doctor");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
@@ -188,14 +188,14 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getleshark(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "leshrak");
+        intent.putExtra("name", "leshrac");
         startActivity(intent);
         Log.i("iqactivity","good");
     }
 
     public void getshadowshaman(View view) {
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "shadowshaman");
+        intent.putExtra("name", "shadow_shaman");
         startActivity(intent);
         Log.i("iqactivity", "good");
     }
@@ -217,7 +217,7 @@ public class IQActivity extends AppCompatActivity {
     }
     public void getcrystal(View view){
         Intent intent = new Intent(IQActivity.this, HeroActivity.class);
-        intent.putExtra("name", "crystalmaiden");
+        intent.putExtra("name", "crystal_maiden");
         startActivity(intent);
         Log.i("iqactivity","good");
 

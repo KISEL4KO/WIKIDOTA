@@ -30,7 +30,7 @@ public class SpeedActivity extends AppCompatActivity {
     }
     public void getarcwarden(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "arcwarden");
+        intent.putExtra("name", "arc_warden");
         startActivity(intent);
 
     }public void getbloodseeker(View view){
@@ -40,7 +40,7 @@ public class SpeedActivity extends AppCompatActivity {
 
     }public void getbountyhunter(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "bountyhunter");
+        intent.putExtra("name", "bounty_hunter");
         startActivity(intent);
 
     }public void getclinkz (View view){
@@ -50,17 +50,17 @@ public class SpeedActivity extends AppCompatActivity {
 
     }public void getdrowranger(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "drowranger");
+        intent.putExtra("name", "drow_ranger");
         startActivity(intent);
 
     }public void getemberspirit(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "emberspirit");
+        intent.putExtra("name", "ember_spirit");
         startActivity(intent);
 
     }public void getfaclessvoid(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "facelessvoid");
+        intent.putExtra("name", "faceless_void");
         startActivity(intent);
 
     }public void getgyrocopter(View view){
@@ -95,7 +95,7 @@ public class SpeedActivity extends AppCompatActivity {
 
     }public void getmonkeyking(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "monkeyking");
+        intent.putExtra("name", "monkey_king");
         startActivity(intent);
 
     }public void getmorphling(View view){
@@ -105,12 +105,12 @@ public class SpeedActivity extends AppCompatActivity {
 
     }public void getnagasiren(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "nagasiren");
+        intent.putExtra("name", "naga_siren");
         startActivity(intent);
 
     }public void getphatomassasin(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "phantomassasin");
+        intent.putExtra("name", "phantom_assasin");
         startActivity(intent);
 
     }
@@ -128,12 +128,12 @@ public class SpeedActivity extends AppCompatActivity {
 
     public void getphatomlancer(View view) {
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "phantomlancer");
+        intent.putExtra("name", "phantom_lancer");
         startActivity(intent);
     }
     public void getshadowfiend(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "shadowfiend");
+        intent.putExtra("name", "shadow_fiend");
         startActivity(intent);
 
     }public void getslark(View view){
@@ -153,7 +153,7 @@ public class SpeedActivity extends AppCompatActivity {
 
     }public void gettemplarassasin(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "templarassasin");
+        intent.putExtra("name", "templar_assasin");
         startActivity(intent);
 
     }public void getterrorblade(View view){
@@ -163,7 +163,7 @@ public class SpeedActivity extends AppCompatActivity {
 
     }public void gettrollwarlord(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "trollwarlord");
+        intent.putExtra("name", "troll_warlord");
         startActivity(intent);
 
     }public void getursa(View view){

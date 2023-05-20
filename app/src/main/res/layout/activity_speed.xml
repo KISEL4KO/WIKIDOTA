@@ -40,7 +40,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView133"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/arcwarden" />
+        app:srcCompat="@drawable/arc_warden" />
 
     <ImageView
         android:id="@+id/imageView135"
@@ -62,7 +62,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView135"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bountyhunter" />
+        app:srcCompat="@drawable/bounty_hunter" />
 
     <ImageView
         android:id="@+id/imageView137"
@@ -86,7 +86,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView133"
-        app:srcCompat="@drawable/drowranger" />
+        app:srcCompat="@drawable/drow_ranger" />
 
     <ImageView
         android:id="@+id/imageView139"
@@ -96,7 +96,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView138"
         app:layout_constraintTop_toBottomOf="@+id/imageView134"
-        app:srcCompat="@drawable/emberspirit" />
+        app:srcCompat="@drawable/ember_spirit" />
 
     <ImageView
         android:id="@+id/imageView140"
@@ -106,7 +106,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView139"
         app:layout_constraintTop_toBottomOf="@+id/imageView135"
-        app:srcCompat="@drawable/facelessvoid" />
+        app:srcCompat="@drawable/faceless_void" />
 
     <ImageView
         android:id="@+id/imageView141"
@@ -181,7 +181,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView146"
         app:layout_constraintTop_toBottomOf="@+id/imageView142"
-        app:srcCompat="@drawable/monkeyking" />
+        app:srcCompat="@drawable/monkey_king" />
 
     <ImageView
         android:id="@+id/imageView148"
@@ -202,7 +202,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView148"
         app:layout_constraintTop_toBottomOf="@+id/imageView144"
-        app:srcCompat="@drawable/nagasiren" />
+        app:srcCompat="@drawable/naga_siren" />
 
     <ImageView
         android:id="@+id/imageView150"
@@ -212,7 +212,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView149"
         app:layout_constraintTop_toBottomOf="@+id/imageView145"
-        app:srcCompat="@drawable/phatomassasin" />
+        app:srcCompat="@drawable/phatom_assasin" />
 
     <ImageView
         android:id="@+id/imageView151"
@@ -222,7 +222,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView150"
         app:layout_constraintTop_toBottomOf="@+id/imageView146"
-        app:srcCompat="@drawable/phatomlancer" />
+        app:srcCompat="@drawable/phatom_lancer" />
 
     <ImageView
         android:id="@+id/imageView152"
@@ -255,7 +255,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView153"
         app:layout_constraintTop_toBottomOf="@+id/imageView149"
-        app:srcCompat="@drawable/shadowfiend" />
+        app:srcCompat="@drawable/shadow_fiend" />
 
     <ImageView
         android:id="@+id/imageView155"
@@ -297,7 +297,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView153"
-        app:srcCompat="@drawable/templarassasin" />
+        app:srcCompat="@drawable/templar_assasin" />
 
     <ImageView
         android:id="@+id/imageView159"
@@ -317,7 +317,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView159"
         app:layout_constraintTop_toBottomOf="@+id/imageView155"
-        app:srcCompat="@drawable/trollwarlord" />
+        app:srcCompat="@drawable/troll_warlord" />
 
     <ImageView
         android:id="@+id/imageView161"

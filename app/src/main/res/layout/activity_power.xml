@@ -62,7 +62,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView73"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/centaurwarrunner" />
+        app:srcCompat="@drawable/centaur_warrunner" />
 
     <ImageView
         android:id="@+id/imageView75"
@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView74"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/chaosknight" />
+        app:srcCompat="@drawable/chaos_knight" />
 
     <ImageView
         android:id="@+id/imageView76"
@@ -106,7 +106,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView77"
         app:layout_constraintTop_toBottomOf="@+id/imageView73"
-        app:srcCompat="@drawable/dragonknight" />
+        app:srcCompat="@drawable/dragon_knight" />
 
     <ImageView
         android:id="@+id/imageView79"
@@ -128,7 +128,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView79"
         app:layout_constraintTop_toBottomOf="@+id/imageView75"
-        app:srcCompat="@drawable/earthspirit" />
+        app:srcCompat="@drawable/earth_spirit" />
 
     <ImageView
         android:id="@+id/imageView81"
@@ -159,7 +159,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView82"
         app:layout_constraintTop_toBottomOf="@+id/imageView78"
-        app:srcCompat="@drawable/legioncommander" />
+        app:srcCompat="@drawable/legion_commander" />
 
     <ImageView
         android:id="@+id/imageView84"
@@ -192,7 +192,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView81"
-        app:srcCompat="@drawable/nightstalker" />
+        app:srcCompat="@drawable/night_stalker" />
 
     <ImageView
         android:id="@+id/imageView87"
@@ -202,7 +202,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView86"
         app:layout_constraintTop_toBottomOf="@+id/imageView82"
-        app:srcCompat="@drawable/ogremagi" />
+        app:srcCompat="@drawable/ogre_magi" />
 
     <ImageView
         android:id="@+id/imageView88"
@@ -222,7 +222,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView88"
         app:layout_constraintTop_toBottomOf="@+id/imageView84"
-        app:srcCompat="@drawable/primalbeast" />
+        app:srcCompat="@drawable/primal_beast" />
 
     <ImageView
         android:id="@+id/imageView90"
@@ -255,7 +255,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView91"
         app:layout_constraintTop_toBottomOf="@+id/imageView87"
-        app:srcCompat="@drawable/spiritbreaker" />
+        app:srcCompat="@drawable/spirit_breaker" />
 
     <ImageView
         android:id="@+id/imageView93"
@@ -298,7 +298,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView91"
-        app:srcCompat="@drawable/treantprotector" />
+        app:srcCompat="@drawable/treant_protector" />
 
     <ImageView
         android:id="@+id/imageView97"
@@ -340,7 +340,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView99"
         app:layout_constraintTop_toBottomOf="@+id/imageView95"
-        app:srcCompat="@drawable/wraithking" />
+        app:srcCompat="@drawable/wraith_king" />
 
     <ImageView
         android:id="@+id/imageView101"
@@ -351,5 +351,5 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView96"
-        app:srcCompat="@drawable/eldertitan" />
+        app:srcCompat="@drawable/elder_titan" />
 </androidx.constraintlayout.widget.ConstraintLayout>

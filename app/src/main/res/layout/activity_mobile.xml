@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#252525"
-    android:onClick="gettechies"
     tools:context=".MobileActivity">
 
     <TextView
@@ -120,7 +119,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView174"
         app:layout_constraintTop_toBottomOf="@+id/imageView170"
-        app:srcCompat="@drawable/darkseer" />
+        app:srcCompat="@drawable/dark_seer" />
 
     <ImageView
         android:id="@+id/imageView176"
@@ -132,7 +131,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView175"
         app:layout_constraintTop_toBottomOf="@+id/imageView171"
-        app:srcCompat="@drawable/darkwillow" />
+        app:srcCompat="@drawable/dark_willow" />
 
     <ImageView
         android:id="@+id/imageView177"
@@ -174,7 +173,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView179"
         app:layout_constraintTop_toBottomOf="@+id/imageView175"
-        app:srcCompat="@drawable/lonedruid" />
+        app:srcCompat="@drawable/lone_druid" />
 
     <ImageView
         android:id="@+id/imageView181"
@@ -229,7 +228,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView184"
         app:layout_constraintTop_toBottomOf="@+id/imageView180"
-        app:srcCompat="@drawable/nyxassassin" />
+        app:srcCompat="@drawable/nyx_assassin" />
 
     <ImageView
         android:id="@+id/imageView186"
@@ -264,7 +263,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView187"
         app:layout_constraintTop_toBottomOf="@+id/imageView183"
-        app:srcCompat="@drawable/sandking" />
+        app:srcCompat="@drawable/sand_king" />
 
     <ImageView
         android:id="@+id/imageView190"
@@ -330,7 +329,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView194"
         app:layout_constraintTop_toBottomOf="@+id/imageView190"
-        app:srcCompat="@drawable/voidspirit" />
+        app:srcCompat="@drawable/void_spirit" />
 
     <ImageView
         android:id="@+id/imageView196"
@@ -340,7 +339,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView195"
         app:layout_constraintTop_toBottomOf="@+id/imageView191"
-        app:srcCompat="@drawable/winterwyvern" />
+        app:srcCompat="@drawable/winter_wyvern" />
 
     <ImageView
         android:id="@+id/imageView197"
@@ -363,6 +362,6 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView193"
-        app:srcCompat="@drawable/vengefulspirit" />
+        app:srcCompat="@drawable/vengeful_spirit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

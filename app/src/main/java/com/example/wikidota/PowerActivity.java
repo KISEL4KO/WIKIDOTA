@@ -41,14 +41,14 @@ public class PowerActivity extends AppCompatActivity {
 
     } public void getcentaurwarrunner(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "centaurwarrunner");
+        intent.putExtra("name", "centaur_warrunner");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getchaosknight(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "chaosknight");
+        intent.putExtra("name", "chaos_knight");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -69,7 +69,7 @@ public class PowerActivity extends AppCompatActivity {
 
     } public void getdragonknight(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "dragonknight");
+        intent.putExtra("name", "dragon_knight");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -85,7 +85,7 @@ public class PowerActivity extends AppCompatActivity {
 
     } public void getearthspirit(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "earthspirit");
+        intent.putExtra("name", "earth_spirit");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -107,7 +107,7 @@ public class PowerActivity extends AppCompatActivity {
     }
     public void getlegioncommander(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "legioncommander");
+        intent.putExtra("name", "legion_commander");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -131,14 +131,14 @@ public class PowerActivity extends AppCompatActivity {
 
      public void getnightstalker(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-         intent.putExtra("name", "nightstalker");
+         intent.putExtra("name", "night_stalker");
          intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
 
     } public void getogremagi(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "ogremagi");
+        intent.putExtra("name", "ogre_magi");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -149,13 +149,11 @@ public class PowerActivity extends AppCompatActivity {
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
-
-
     }
 
      public void getprimalbeast(View view) {
          Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-         intent.putExtra("name", "primalbeast");
+         intent.putExtra("name", "primal_beast");
          intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -177,7 +175,7 @@ public class PowerActivity extends AppCompatActivity {
 
     } public void getspiritbreaker(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "spiritbreaker");
+        intent.putExtra("name", "spirit_breaker");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -205,7 +203,7 @@ public class PowerActivity extends AppCompatActivity {
 
     } public void gettreantprotector(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "treantprotector");
+        intent.putExtra("name", "treant_protector");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
@@ -235,14 +233,14 @@ public class PowerActivity extends AppCompatActivity {
 
     } public void getwraithking(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "wraithking");
+        intent.putExtra("name", "wraith_king");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");
     }
     public void geteldertitan(View view) {
         Intent intent = new Intent(PowerActivity.this, HeroActivity.class);
-        intent.putExtra("name", "eldertitan");
+        intent.putExtra("name", "elder_titan");
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         Log.i("poweractivity","good");

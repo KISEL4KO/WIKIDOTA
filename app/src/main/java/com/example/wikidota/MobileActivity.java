@@ -4,10 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
-import com.example.wikidota.HeroActivity;
 public class MobileActivity extends AppCompatActivity {
 
     @Override
@@ -64,18 +62,15 @@ public class MobileActivity extends AppCompatActivity {
         intent.putExtra("name", "clockwerk");
         startActivity(intent);
 
-
-
-
     } public void darkseer(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "darkseer");
+        intent.putExtra("name", "dark_seer");
         startActivity(intent);
 
 
     } public void getdarkwillow(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "darkwillow");
+        intent.putExtra("name", "dark_willow");
         startActivity(intent);
 
 
@@ -99,7 +94,7 @@ public class MobileActivity extends AppCompatActivity {
     }
     public void getlonedroid(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "lonedruid");
+        intent.putExtra("name", "lone_druid");
         startActivity(intent);
 
 
@@ -130,7 +125,7 @@ public class MobileActivity extends AppCompatActivity {
 
     public void getnyxassasin(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "nyxassasin");
+        intent.putExtra("name", "nyx_assassin");
         startActivity(intent);
 
 
@@ -149,7 +144,7 @@ public class MobileActivity extends AppCompatActivity {
 
     } public void getsandking(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "sandking");
+        intent.putExtra("name", "sand_king");
         startActivity(intent);
 
 
@@ -187,13 +182,13 @@ public class MobileActivity extends AppCompatActivity {
     }
     public void getvoidspirit(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "voidspirit");
+        intent.putExtra("name", "void_spirit");
         startActivity(intent);
 
 
     } public void getwinterwyvern(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "winterwyvern");
+        intent.putExtra("name", "winter_wyvern");
         startActivity(intent);
 
 
@@ -206,7 +201,7 @@ public class MobileActivity extends AppCompatActivity {
     }
     public void getvengevul(View view) {
         Intent intent = new Intent(MobileActivity.this, HeroActivity.class);
-        intent.putExtra("name", "vengefulspirit");
+        intent.putExtra("name", "vengeful_spirit");
         startActivity(intent);
     }
 }
