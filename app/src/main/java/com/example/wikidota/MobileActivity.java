@@ -204,4 +204,22 @@ public class MobileActivity extends AppCompatActivity {
         intent.putExtra("name", "vengeful_spirit");
         startActivity(intent);
     }
+
+    public void getCharacher(View view) {
+        Intent intent = new Intent(MobileActivity.this, Character.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+    }
+
+    public void getItem(View view) {
+        Intent intent = new Intent(MobileActivity.this, Items.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+    }
+
+    public void getHome(View view) {
+        Intent intent = new Intent(MobileActivity.this , MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+    }
 }

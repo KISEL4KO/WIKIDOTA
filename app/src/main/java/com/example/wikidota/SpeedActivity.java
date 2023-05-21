@@ -180,9 +180,24 @@ public class SpeedActivity extends AppCompatActivity {
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
         intent.putExtra("name", "weaver");
         startActivity(intent);
-
     }
 
+    public void getCharacher(View view) {
+        Intent intent = new Intent(SpeedActivity.this, Character.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+    }
 
+    public void getItem(View view) {
+        Intent intent = new Intent(SpeedActivity.this, Items.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+    }
+
+    public void getHome(View view) {
+        Intent intent = new Intent(SpeedActivity.this , MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+    }
 
 }

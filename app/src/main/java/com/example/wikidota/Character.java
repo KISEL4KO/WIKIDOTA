@@ -16,10 +16,12 @@ public class Character extends AppCompatActivity {
 
     public void  getHome2(View view){
         Intent intent = new Intent(Character.this , MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
         startActivity(intent);
     }
     public void getItem2(View view){
         Intent intent = new Intent(Character.this , Items.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
         startActivity(intent);
 
     }
@@ -28,7 +30,6 @@ public class Character extends AppCompatActivity {
         startActivity(intent);
     }
     public void getSpeed(View view){
-
         Intent intent = new Intent(Character.this , SpeedActivity.class);
         startActivity(intent);
     }
@@ -39,6 +40,5 @@ public class Character extends AppCompatActivity {
     public void getMobile(View view){
         Intent intent = new Intent(Character.this , MobileActivity.class);
         startActivity(intent);
-
     }
 }

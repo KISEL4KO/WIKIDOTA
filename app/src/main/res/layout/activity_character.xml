@@ -14,13 +14,11 @@
         android:gravity="left"
         android:text="Персонажи"
         android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:textSize="38sp"
+        android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_marginTop="4dp" />
 
     <LinearLayout
         android:id="@+id/toolbar"
@@ -73,13 +71,14 @@
         android:layout_width="137dp"
         android:layout_height="23dp"
         android:layout_marginStart="132dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="8dp"
         android:gravity="center"
         android:text="Ловкость"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 

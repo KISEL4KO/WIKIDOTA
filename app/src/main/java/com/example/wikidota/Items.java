@@ -16,11 +16,13 @@ public class Items extends AppCompatActivity {
 
     public void getCharacher1(View view) {
         Intent intent = new Intent(Items.this, Character.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
         startActivity(intent);
     }
 
     public void getHome1(View view) {
         Intent intent = new Intent(Items.this , MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
         startActivity(intent);
     }
 }

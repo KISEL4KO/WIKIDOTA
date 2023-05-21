@@ -9,13 +9,13 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="328dp"
+        android:layout_height="47dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Универсалы"
         android:textColor="#FAFAFA"
-        android:textSize="20sp"
+        android:textSize="38sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,22 +47,22 @@
         android:layout_width="75dp"
         android:layout_height="53dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="71dp"
+        android:layout_marginTop="28dp"
         android:onClick="getbatrider"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView168"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/batrider" />
 
     <ImageView
         android:id="@+id/imageView170"
         android:layout_width="75dp"
         android:layout_height="53dp"
-        android:layout_marginTop="71dp"
+        android:layout_marginTop="28dp"
         android:onClick="getbeastmaster"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/imageView169"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/beastmaster" />
 
     <ImageView
@@ -70,13 +70,14 @@
         android:layout_width="75dp"
         android:layout_height="53dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="71dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="16dp"
         android:onClick="getbrewmaster"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView170"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/brewmaster" />
 
     <ImageView
@@ -363,5 +364,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView193"
         app:srcCompat="@drawable/vengeful_spirit" />
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="419dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="1dp"
+        android:background="#0E0E0E"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/h1"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:onClick="getCharacher"
+            app:srcCompat="@drawable/sai" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:onClick="getHome"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/item2"
+            android:layout_width="143dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:onClick="getItem"
+            app:srcCompat="@drawable/item" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

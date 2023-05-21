@@ -2,7 +2,9 @@ package com.example.wikidota;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -100,5 +102,26 @@ public class HeroActivity extends AppCompatActivity {
         }
         if (name.equals("natures_prophet")) return "Nature%27s_Prophet";
         else return itog.substring(0, itog.length()-1);
+    }
+
+    public void getCharacher(View view) {
+        Intent intent = new Intent(HeroActivity.this, Character.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+        finish();
+    }
+
+    public void getItem(View view) {
+        Intent intent = new Intent(HeroActivity.this, Items.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+        finish();
+    }
+
+    public void getHome(View view) {
+        Intent intent = new Intent(HeroActivity.this , MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+        finish();
     }
 }

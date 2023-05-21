@@ -9,14 +9,14 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="173dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="28dp"
+        android:layout_width="342dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="210dp"
+        android:layout_marginEnd="21dp"
         android:text="Интеллект"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
+        android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -381,5 +381,41 @@
         app:layout_constraintStart_toEndOf="@+id/imageView68"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/crystal_maiden" />
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="419dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="1dp"
+        android:background="#0E0E0E"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/h1"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:onClick="getCharacher"
+            app:srcCompat="@drawable/sai" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:onClick="getHome"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/item2"
+            android:layout_width="143dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:onClick="getItem"
+            app:srcCompat="@drawable/item" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
