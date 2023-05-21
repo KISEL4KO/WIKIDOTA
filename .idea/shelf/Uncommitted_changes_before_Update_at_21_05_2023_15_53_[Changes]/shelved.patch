@@ -1,0 +1,176 @@
+Index: app/src/main/res/layout/activity_hero.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_hero.xml b/app/src/main/res/layout/activity_hero.xml
+--- a/app/src/main/res/layout/activity_hero.xml	
++++ b/app/src/main/res/layout/activity_hero.xml	
+@@ -9,11 +9,99 @@
+ 
+     <ImageView
+         android:id="@+id/image"
+-        android:layout_width="256dp"
+-        android:layout_height="144dp"
++        android:layout_width="225dp"
++        android:layout_height="135dp"
+         android:layout_marginStart="19dp"
+         android:layout_marginTop="22dp"
+         android:scaleType="fitXY"
+         app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"/>
++        app:layout_constraintTop_toTopOf="parent"
++        app:srcCompat="@drawable/abaddon" />
++
++    <TextView
++        android:id="@+id/name"
++        android:layout_width="373dp"
++        android:layout_height="40dp"
++        android:layout_marginTop="10dp"
++        android:text="Keeper Of The Light"
++        android:textColor="@color/white"
++        android:textSize="29sp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/image" />
++
++    <ScrollView
++        android:layout_width="373dp"
++        android:layout_height="490dp"
++        android:fillViewport="true"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/name">
++
++        <LinearLayout
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:orientation="vertical">
++
++            <TextView
++                android:textAlignment="center"
++                android:text="Стиль игры"
++                android:textColor="@color/white"
++                android:textSize="19sp"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"/>
++            <TextView
++                android:id="@+id/style"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:text="TextView" />
++            <TextView
++                android:textAlignment="center"
++                android:text="Преимущества"
++                android:textColor="@color/white"
++                android:textSize="19sp"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"/>
++            <TextView
++                android:id="@+id/plus"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:text="TextView" />
++            <TextView
++                android:textAlignment="center"
++                android:text="Недостатки"
++                android:textColor="@color/white"
++                android:textSize="19sp"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"/>
++            <TextView
++                android:id="@+id/minus"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:text="TextView" />
++            <TextView
++                android:textAlignment="center"
++                android:text="Скиллы"
++                android:textColor="@color/white"
++                android:textSize="19sp"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"/>
++            <TextView
++                android:textAlignment="center"
++                android:text="Таланты"
++                android:textColor="@color/white"
++                android:textSize="19sp"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"/>
++            <TextView
++                android:textAlignment="center"
++                android:text="Сборка"
++                android:textColor="@color/white"
++                android:textSize="19sp"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"/>
++        </LinearLayout>
++    </ScrollView>
++
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/wikidota/HeroActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/wikidota/HeroActivity.java b/app/src/main/java/com/example/wikidota/HeroActivity.java
+--- a/app/src/main/java/com/example/wikidota/HeroActivity.java	
++++ b/app/src/main/java/com/example/wikidota/HeroActivity.java	
+@@ -1,11 +1,10 @@
+ package com.example.wikidota;
+ 
+ import androidx.appcompat.app.AppCompatActivity;
+-
+ import android.os.Bundle;
+ import android.widget.ImageView;
+ 
+-import com.example.wikidota.R;
++
+ 
+ public class HeroActivity extends AppCompatActivity {
+     public ImageView img;
+@@ -20,4 +19,4 @@
+         name = bundleIntent.get("name").toString();
+         img.setImageResource(getResources().getIdentifier(name, "drawable", getPackageName()));
+     }
+-}
+\ No newline at end of file
++}
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	
++++ b/app/build.gradle	
+@@ -29,11 +29,11 @@
+ }
+ 
+ dependencies {
+-
+     implementation 'androidx.appcompat:appcompat:1.6.1'
+     implementation 'com.google.android.material:material:1.8.0'
+     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+     implementation 'org.jsoup:jsoup:1.16.1'
++    implementation 'org.apache.poi:poi-ooxml:4.1.2'
+     testImplementation 'junit:junit:4.13.2'
+     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,4 +1,4 @@
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file

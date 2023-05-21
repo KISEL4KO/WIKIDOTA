@@ -3,6 +3,7 @@ package com.example.wikidota;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -12,6 +13,8 @@ import com.example.wikidota.R;
 
 import org.jsoup.nodes.Document;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
 public class HeroActivity extends AppCompatActivity {
@@ -29,6 +32,23 @@ public class HeroActivity extends AppCompatActivity {
         name = bundleIntent.get("name").toString();
         img.setImageResource(getResources().getIdentifier(name, "drawable", getPackageName()));
         fill();
+        fillImages();
+    }
+
+    public void fillImages() {
+        for (int i = 1; i <= 12; i++) {
+            ImageView view = findViewById(getResources().getIdentifier("s" + i, "id", getPackageName()));
+            if (getResources().getIdentifier(name + "skill" + i, "drawable", getPackageName()) != 0) {
+                view.setImageResource(getResources().getIdentifier(name + "skill" + i, "drawable", getPackageName()));
+            }
+            else {
+                view.setVisibility(View.GONE);
+            }
+        }
+        ImageView tal = findViewById(R.id.t);
+        tal.setImageResource(getResources().getIdentifier(name + "talants", "drawable", getPackageName()));
+        ImageView build = findViewById(R.id.b);
+        build.setImageResource(getResources().getIdentifier(name + "build", "drawable", getPackageName()));
     }
 
     public void fill() throws NullPointerException {
