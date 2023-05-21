@@ -43,16 +43,19 @@ public class Builder {
         try {
             String name = html.title().split(" — ")[0];
             Elements listItems = html.select("div.mw-parser-output > table > tbody > tr > td");
-            int pos = 0;
+            ArrayList<String> lols = new ArrayList<>();
             for (Element e: listItems) {
-                if (e.text().contains("Керри") || e.text().contains("Поддержка")) {
+                if (e.text().length() >= 5) lols.add(e.text());
+            }
+            int pos = 0;
+            for (String e: lols) {
+                if (e.contains("Керри") || e.contains("Поддержка") || e.contains("Контроль") || e.contains("Лес") || e.contains("Осада") || e.contains("Инициация") || e.contains("Быстрый урон") || e.contains("Стойкость") || e.contains("Побег")) {
                     break;
                 }
-                if (e.text().length() > 3) pos++;
+                pos++;
             }
             list[0] = name;
-            list[1] = listItems.get(pos - 1).text();
-            System.out.println(pos);
+            list[1] = lols.get(pos - 1);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
