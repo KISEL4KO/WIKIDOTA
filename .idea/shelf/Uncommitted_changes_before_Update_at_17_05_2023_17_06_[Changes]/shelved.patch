@@ -1,0 +1,354 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44_[Changes]/shelved.patch	(revision a55002141c29abf55a37c05a9da5665caab1298b)
++++ /dev/null	(revision a55002141c29abf55a37c05a9da5665caab1298b)
+@@ -1,335 +0,0 @@
+-Index: app/src/main/res/layout/activity_disruptor.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/activity_disruptor.xml b/app/src/main/res/layout/activity_disruptor.xml
+-new file mode 100644
+---- /dev/null	(date 1683576814844)
+-+++ b/app/src/main/res/layout/activity_disruptor.xml	(date 1683576814844)
+-@@ -0,0 +1,9 @@
+-+<?xml version="1.0" encoding="utf-8"?>
+-+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-+    xmlns:app="http://schemas.android.com/apk/res-auto"
+-+    xmlns:tools="http://schemas.android.com/tools"
+-+    android:layout_width="match_parent"
+-+    android:layout_height="match_parent"
+-+    tools:context=".characters.iq.DisruptorActivity">
+-+
+-+</androidx.constraintlayout.widget.ConstraintLayout>
+-\ No newline at end of file
+-Index: app/src/main/java/com/example/wikidota/characters/iq/DisruptorActivity.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/wikidota/characters/iq/DisruptorActivity.java b/app/src/main/java/com/example/wikidota/characters/iq/DisruptorActivity.java
+-new file mode 100644
+---- /dev/null	(date 1683576836740)
+-+++ b/app/src/main/java/com/example/wikidota/characters/iq/DisruptorActivity.java	(date 1683576836740)
+-@@ -0,0 +1,16 @@
+-+package com.example.wikidota.characters.iq;
+-+
+-+import androidx.appcompat.app.AppCompatActivity;
+-+
+-+import android.os.Bundle;
+-+
+-+import com.example.wikidota.R;
+-+
+-+public class DisruptorActivity extends AppCompatActivity {
+-+
+-+    @Override
+-+    protected void onCreate(Bundle savedInstanceState) {
+-+        super.onCreate(savedInstanceState);
+-+        setContentView(R.layout.activity_disruptor);
+-+    }
+-+}
+-\ No newline at end of file
+-Index: .idea/compiler.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <bytecodeTargetLevel target=\"17\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+---- a/.idea/compiler.xml	(revision 7c7b3561385332d72a0b868df821a2f305425449)
+-+++ b/.idea/compiler.xml	(date 1683576705621)
+-@@ -1,6 +1,6 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-   <component name="CompilerConfiguration">
+--    <bytecodeTargetLevel target="17" />
+-+    <bytecodeTargetLevel target="11" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: app/src/main/java/com/example/wikidota/IQActivity.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>package com.example.wikidota;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.content.Intent;\r\nimport android.os.Bundle;\r\nimport android.view.View;\r\n\r\npublic class IQActivity extends AppCompatActivity {\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_iqactivity);\r\n    }\r\n    public void getenc(View view){\r\n        Intent intent = new Intent(IQActivity.this ,  EnchantressActivity.class);\r\n        startActivity(intent);\r\n    }\r\n}\r\n\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/wikidota/IQActivity.java b/app/src/main/java/com/example/wikidota/IQActivity.java
+---- a/app/src/main/java/com/example/wikidota/IQActivity.java	(revision 7c7b3561385332d72a0b868df821a2f305425449)
+-+++ b/app/src/main/java/com/example/wikidota/IQActivity.java	(date 1683576607342)
+-@@ -6,6 +6,8 @@
+- import android.os.Bundle;
+- import android.view.View;
+- 
+-+import com.example.wikidota.characters.iq.EnchantressActivity;
+-+
+- public class IQActivity extends AppCompatActivity {
+- 
+-     @Override
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" project-jdk-name=\"jbr-17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 7c7b3561385332d72a0b868df821a2f305425449)
+-+++ b/.idea/misc.xml	(date 1683576828745)
+-@@ -1,6 +1,7 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-   <component name="ExternalStorageConfigurationManager" enabled="true" />
+--  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+-     <output url="file://$PROJECT_DIR$/build/classes" />
+-   </component>
+-   <component name="ProjectType">
+-Index: app/src/main/res/layout/activity_enchantress.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"#252525\"\r\n    tools:context=\".EnchantressActivity\">\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView10\"\r\n        android:layout_width=\"241dp\"\r\n        android:layout_height=\"45dp\"\r\n        android:layout_marginStart=\"20dp\"\r\n        android:layout_marginTop=\"16dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\" Enchantress\"\r\n        android:textColor=\"#FBFAFA\"\r\n        android:textSize=\"34sp\"\r\n        app:layout_constraintStart_toEndOf=\"@+id/imageView\"\r\n        app:layout_constraintTop_toTopOf=\"parent\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView6\"\r\n        android:layout_width=\"159dp\"\r\n        android:layout_height=\"275dp\"\r\n        android:layout_marginStart=\"1dp\"\r\n        android:layout_marginTop=\"17dp\"\r\n        android:scaleType=\"centerCrop\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/imageView\"\r\n        app:srcCompat=\"@drawable/screen\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView11\"\r\n        android:layout_width=\"239dp\"\r\n        android:layout_height=\"214dp\"\r\n        android:layout_marginTop=\"6dp\"\r\n        android:layout_marginEnd=\"10dp\"\r\n        android:text=\" Переманивает нейтральных крипов на свою сторону «Спройнк!» Беспечная и чистая душой, Аюшта странствует по лесам, слушая истории их обитателей. Nature's Attendants — живые духи, исцеляющие как малых, так и больших существ — порхают вокруг неё. При необходимости она очаровывает лесных созданий Enchants для выполнения поручений. Untouchable — прекрасный образ неприкасаемой невинности, увидев который охотники не решаются хоть немного шевельнутся в сторону Аюшты. Это нежелание редко встречается. Угрозы, нависшие над её друзьям, наполняют Enchantress решимостью пойти против своего мягкого характера и взять как оружие Impetus, чтобы привести тех, кто нарушает мирное существование, к скорому и окончательному правосудию.\"\r\n        android:textColor=\"#F4F3F3\"\r\n        android:textSize=\"10sp\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/textView13\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView7\"\r\n        android:layout_width=\"136dp\"\r\n        android:layout_height=\"112dp\"\r\n        android:layout_marginStart=\"1dp\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/imageView6\"\r\n        app:srcCompat=\"@drawable/skil5\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView8\"\r\n        android:layout_width=\"133dp\"\r\n        android:layout_height=\"115dp\"\r\n        android:layout_marginStart=\"3dp\"\r\n        app:layout_constraintStart_toEndOf=\"@+id/imageView7\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/imageView6\"\r\n        app:srcCompat=\"@drawable/skil2\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView9\"\r\n        android:layout_width=\"148dp\"\r\n        android:layout_height=\"131dp\"\r\n        android:layout_marginStart=\"1dp\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/imageView8\"\r\n        app:srcCompat=\"@drawable/skil1\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView10\"\r\n        android:layout_width=\"133dp\"\r\n        android:layout_height=\"122dp\"\r\n        app:layout_constraintStart_toEndOf=\"@+id/imageView9\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/imageView8\"\r\n        app:srcCompat=\"@drawable/skil4\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView11\"\r\n        android:layout_width=\"113dp\"\r\n        android:layout_height=\"123dp\"\r\n        android:layout_marginTop=\"10dp\"\r\n        app:layout_constraintStart_toEndOf=\"@+id/imageView8\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/textView12\"\r\n        app:srcCompat=\"@drawable/skill3\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView12\"\r\n        android:layout_width=\"215dp\"\r\n        android:layout_height=\"34dp\"\r\n        android:layout_marginTop=\"64dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"Способности\"\r\n        android:textColor=\"#FFFFFF\"\r\n        android:textSize=\"24sp\"\r\n        app:layout_constraintStart_toEndOf=\"@+id/imageView6\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/textView11\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView13\"\r\n        android:layout_width=\"243dp\"\r\n        android:layout_height=\"39dp\"\r\n        android:layout_marginTop=\"1dp\"\r\n        android:layout_marginEnd=\"3dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"Роли:  Поддержка , Лес, Осада, Стойкость, Контроль\"\r\n        android:textColor=\"#EDE8E8\"\r\n        android:textSize=\"16sp\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/textView10\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView\"\r\n        android:layout_width=\"114dp\"\r\n        android:layout_height=\"129dp\"\r\n        android:layout_marginStart=\"26dp\"\r\n        android:layout_marginTop=\"16dp\"\r\n        android:scaleType=\"centerCrop\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:srcCompat=\"@drawable/enchantress\" />\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/activity_enchantress.xml b/app/src/main/res/layout/activity_enchantress.xml
+---- a/app/src/main/res/layout/activity_enchantress.xml	(revision 7c7b3561385332d72a0b868df821a2f305425449)
+-+++ b/app/src/main/res/layout/activity_enchantress.xml	(date 1683576607335)
+-@@ -5,7 +5,7 @@
+-     android:layout_width="match_parent"
+-     android:layout_height="match_parent"
+-     android:background="#252525"
+--    tools:context=".EnchantressActivity">
+-+    tools:context=".characters.iq.EnchantressActivity">
+- 
+-     <TextView
+-         android:id="@+id/textView10"
+-Index: .idea/gradle.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"GRADLE\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+---- a/.idea/gradle.xml	(revision 7c7b3561385332d72a0b868df821a2f305425449)
+-+++ b/.idea/gradle.xml	(date 1683576210928)
+-@@ -7,6 +7,7 @@
+-         <option name="testRunner" value="GRADLE" />
+-         <option name="distributionType" value="DEFAULT_WRAPPED" />
+-         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-+        <option name="gradleJvm" value="Embedded JDK" />
+-         <option name="modules">
+-           <set>
+-             <option value="$PROJECT_DIR$" />
+-Index: app/src/main/java/com/example/wikidota/characters/iq/DeathProphetActivity.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/wikidota/characters/iq/DeathProphetActivity.java b/app/src/main/java/com/example/wikidota/characters/iq/DeathProphetActivity.java
+-new file mode 100644
+---- /dev/null	(date 1683576817559)
+-+++ b/app/src/main/java/com/example/wikidota/characters/iq/DeathProphetActivity.java	(date 1683576817559)
+-@@ -0,0 +1,16 @@
+-+package com.example.wikidota.characters.iq;
+-+
+-+import androidx.appcompat.app.AppCompatActivity;
+-+
+-+import android.os.Bundle;
+-+
+-+import com.example.wikidota.R;
+-+
+-+public class DeathProphetActivity extends AppCompatActivity {
+-+
+-+    @Override
+-+    protected void onCreate(Bundle savedInstanceState) {
+-+        super.onCreate(savedInstanceState);
+-+        setContentView(R.layout.activity_death_prophet);
+-+    }
+-+}
+-\ No newline at end of file
+-Index: app/src/main/res/layout/activity_death_prophet.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/activity_death_prophet.xml b/app/src/main/res/layout/activity_death_prophet.xml
+-new file mode 100644
+---- /dev/null	(date 1683576703263)
+-+++ b/app/src/main/res/layout/activity_death_prophet.xml	(date 1683576703263)
+-@@ -0,0 +1,9 @@
+-+<?xml version="1.0" encoding="utf-8"?>
+-+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-+    xmlns:app="http://schemas.android.com/apk/res-auto"
+-+    xmlns:tools="http://schemas.android.com/tools"
+-+    android:layout_width="match_parent"
+-+    android:layout_height="match_parent"
+-+    tools:context=".characters.iq.DeathProphetActivity">
+-+
+-+</androidx.constraintlayout.widget.ConstraintLayout>
+-\ No newline at end of file
+-Index: app/src/main/java/com/example/wikidota/characters/iq/CrystalMaidenActivity.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/wikidota/characters/iq/CrystalMaidenActivity.java b/app/src/main/java/com/example/wikidota/characters/iq/CrystalMaidenActivity.java
+-new file mode 100644
+---- /dev/null	(date 1683576817549)
+-+++ b/app/src/main/java/com/example/wikidota/characters/iq/CrystalMaidenActivity.java	(date 1683576817549)
+-@@ -0,0 +1,16 @@
+-+package com.example.wikidota.characters.iq;
+-+
+-+import androidx.appcompat.app.AppCompatActivity;
+-+
+-+import android.os.Bundle;
+-+
+-+import com.example.wikidota.R;
+-+
+-+public class CrystalMaidenActivity extends AppCompatActivity {
+-+
+-+    @Override
+-+    protected void onCreate(Bundle savedInstanceState) {
+-+        super.onCreate(savedInstanceState);
+-+        setContentView(R.layout.activity_crystal_maiden);
+-+    }
+-+}
+-\ No newline at end of file
+-Index: app/src/main/AndroidManifest.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\">\r\n\r\n    <uses-permission android:name=\"android.permission.INTERNET\" />\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:dataExtractionRules=\"@xml/data_extraction_rules\"\r\n        android:fullBackupContent=\"@xml/backup_rules\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/Theme.WIKIDOTA\"\r\n        tools:targetApi=\"31\">\r\n        <activity\r\n            android:name=\".EnchantressActivity\"\r\n            android:exported=\"false\" />\r\n        <activity\r\n            android:name=\".MobileActivity\"\r\n            android:exported=\"false\" />\r\n        <activity\r\n            android:name=\".IQActivity\"\r\n            android:exported=\"false\" />\r\n        <activity\r\n            android:name=\".SpeedActivity\"\r\n            android:exported=\"false\" />\r\n        <activity\r\n            android:name=\".PowerActivity\"\r\n            android:exported=\"false\" />\r\n        <activity\r\n            android:name=\".Items\"\r\n            android:exported=\"false\" />\r\n        <activity\r\n            android:name=\".Character\"\r\n            android:exported=\"false\" />\r\n        <activity\r\n            android:name=\".MainActivity\"\r\n            android:exported=\"true\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n    </application>\r\n\r\n</manifest>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+---- a/app/src/main/AndroidManifest.xml	(revision 7c7b3561385332d72a0b868df821a2f305425449)
+-+++ b/app/src/main/AndroidManifest.xml	(date 1683576814745)
+-@@ -14,7 +14,19 @@
+-         android:theme="@style/Theme.WIKIDOTA"
+-         tools:targetApi="31">
+-         <activity
+--            android:name=".EnchantressActivity"
+-+            android:name=".DisruptorActivity"
+-+            android:exported="false" />
+-+        <activity
+-+            android:name=".DeathProphetActivity"
+-+            android:exported="false" />
+-+        <activity
+-+            android:name=".CrystalMaidenActivity"
+-+            android:exported="false" />
+-+        <activity
+-+            android:name=".AparatActivity"
+-+            android:exported="false" />
+-+        <activity
+-+            android:name=".characters.iq.EnchantressActivity"
+-             android:exported="false" />
+-         <activity
+-             android:name=".MobileActivity"
+-Index: app/src/main/java/com/example/wikidota/EnchantressActivity.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/wikidota/EnchantressActivity.java b/app/src/main/java/com/example/wikidota/characters/iq/EnchantressActivity.java
+-rename from app/src/main/java/com/example/wikidota/EnchantressActivity.java
+-rename to app/src/main/java/com/example/wikidota/characters/iq/EnchantressActivity.java
+---- a/app/src/main/java/com/example/wikidota/EnchantressActivity.java	(revision 7c7b3561385332d72a0b868df821a2f305425449)
+-+++ b/app/src/main/java/com/example/wikidota/characters/iq/EnchantressActivity.java	(date 1683576607325)
+-@@ -1,9 +1,10 @@
+--package com.example.wikidota;
+-+package com.example.wikidota.characters.iq;
+- 
+- import androidx.appcompat.app.AppCompatActivity;
+- 
+- import android.os.Bundle;
+- 
+-+import com.example.wikidota.R;
+- 
+- 
+- public class EnchantressActivity extends AppCompatActivity {
+-Index: app/src/main/res/layout/activity_crystal_maiden.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/activity_crystal_maiden.xml b/app/src/main/res/layout/activity_crystal_maiden.xml
+-new file mode 100644
+---- /dev/null	(date 1683576671321)
+-+++ b/app/src/main/res/layout/activity_crystal_maiden.xml	(date 1683576671321)
+-@@ -0,0 +1,9 @@
+-+<?xml version="1.0" encoding="utf-8"?>
+-+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-+    xmlns:app="http://schemas.android.com/apk/res-auto"
+-+    xmlns:tools="http://schemas.android.com/tools"
+-+    android:layout_width="match_parent"
+-+    android:layout_height="match_parent"
+-+    tools:context=".characters.iq.CrystalMaidenActivity">
+-+
+-+</androidx.constraintlayout.widget.ConstraintLayout>
+-\ No newline at end of file
+-Index: app/src/main/java/com/example/wikidota/characters/iq/AparatActivity.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/java/com/example/wikidota/characters/iq/AparatActivity.java b/app/src/main/java/com/example/wikidota/characters/iq/AparatActivity.java
+-new file mode 100644
+---- /dev/null	(date 1683576817539)
+-+++ b/app/src/main/java/com/example/wikidota/characters/iq/AparatActivity.java	(date 1683576817539)
+-@@ -0,0 +1,16 @@
+-+package com.example.wikidota.characters.iq;
+-+
+-+import androidx.appcompat.app.AppCompatActivity;
+-+
+-+import android.os.Bundle;
+-+
+-+import com.example.wikidota.R;
+-+
+-+public class AparatActivity extends AppCompatActivity {
+-+
+-+    @Override
+-+    protected void onCreate(Bundle savedInstanceState) {
+-+        super.onCreate(savedInstanceState);
+-+        setContentView(R.layout.activity_aparat);
+-+    }
+-+}
+-\ No newline at end of file
+-Index: app/src/main/res/layout/activity_aparat.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/app/src/main/res/layout/activity_aparat.xml b/app/src/main/res/layout/activity_aparat.xml
+-new file mode 100644
+---- /dev/null	(date 1683576588633)
+-+++ b/app/src/main/res/layout/activity_aparat.xml	(date 1683576588633)
+-@@ -0,0 +1,9 @@
+-+<?xml version="1.0" encoding="utf-8"?>
+-+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-+    xmlns:app="http://schemas.android.com/apk/res-auto"
+-+    xmlns:tools="http://schemas.android.com/tools"
+-+    android:layout_width="match_parent"
+-+    android:layout_height="match_parent"
+-+    tools:context=".characters.iq.AparatActivity">
+-+
+-+</androidx.constraintlayout.widget.ConstraintLayout>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44__Changes_.xml	(revision a55002141c29abf55a37c05a9da5665caab1298b)
++++ /dev/null	(revision a55002141c29abf55a37c05a9da5665caab1298b)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_10_05_2023_16_44_[Changes]" date="1683726282714" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2023_16_44_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10.05.2023 16:44 [Changes]" />
+-</changelist>
+\ No newline at end of file
