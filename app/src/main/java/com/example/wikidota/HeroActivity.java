@@ -30,14 +30,14 @@ public class HeroActivity extends AppCompatActivity {
         Bundle bundleIntent = getIntent().getExtras();
         img = findViewById(R.id.image);
         name = bundleIntent.get("name").toString();
-        img.setImageResource(getResources().getIdentifier(name, "drawable", getPackageName()));
         fill();
         fillImages();
     }
 
     public void fillImages() {
         if (name.equals("anti-mage")) name = "antimage";
-        for (int i = 1; i <= 12; i++) {
+        img.setImageResource(getResources().getIdentifier(name, "drawable", getPackageName()));
+        for (int i = 1; i <= 14; i++) {
             ImageView view = findViewById(getResources().getIdentifier("s" + i, "id", getPackageName()));
             if (getResources().getIdentifier(name + "skill" + i, "drawable", getPackageName()) != 0) {
                 view.setImageResource(getResources().getIdentifier(name + "skill" + i, "drawable", getPackageName()));
@@ -120,6 +120,7 @@ public class HeroActivity extends AppCompatActivity {
             itog.append("_");
         }
         if (name.equals("natures_prophet")) return "Nature%27s_Prophet";
+        else if (name.equals("anti-mage")) return "Anti-Mage";
         else return itog.substring(0, itog.length()-1);
     }
 
