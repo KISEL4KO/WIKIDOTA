@@ -237,22 +237,6 @@
                 android:adjustViewBounds="true"
                 android:layout_margin="5dp"
                 tools:srcCompat="@tools:sample/avatars" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Сборка"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
-
-            <ImageView
-                android:id="@+id/b"
-                android:layout_width="match_parent"
-                android:layout_margin="5dp"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
-                android:adjustViewBounds="true"
-                tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
     </ScrollView>
     <LinearLayout

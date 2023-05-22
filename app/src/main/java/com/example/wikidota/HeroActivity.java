@@ -36,6 +36,7 @@ public class HeroActivity extends AppCompatActivity {
     }
 
     public void fillImages() {
+        if (name.equals("anti-mage")) name = "antimage";
         for (int i = 1; i <= 12; i++) {
             ImageView view = findViewById(getResources().getIdentifier("s" + i, "id", getPackageName()));
             if (getResources().getIdentifier(name + "skill" + i, "drawable", getPackageName()) != 0) {
@@ -47,8 +48,6 @@ public class HeroActivity extends AppCompatActivity {
         }
         ImageView tal = findViewById(R.id.t);
         tal.setImageResource(getResources().getIdentifier(name + "talants", "drawable", getPackageName()));
-        ImageView build = findViewById(R.id.b);
-        build.setImageResource(getResources().getIdentifier(name + "build", "drawable", getPackageName()));
     }
 
     public void fill() throws NullPointerException {

@@ -24,7 +24,7 @@ public class SpeedActivity extends AppCompatActivity {
      * */
     public void getantimage(View view){
         Intent intent = new Intent(SpeedActivity.this, HeroActivity.class);
-        intent.putExtra("name", "antimage");
+        intent.putExtra("name", "anti-mage");
         startActivity(intent);
 
     }
